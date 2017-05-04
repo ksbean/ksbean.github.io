@@ -3,8 +3,7 @@
     overflow-y: scroll;
     font-family: Courier New;
     background-color: black;
-    background-size: cover;
-    background-image: url("Background.jpg");
+    background-size:cover;
 }
 h1 {
     font-size: 50px;
@@ -48,14 +47,9 @@ li {
 
 
 .centerofPage {
-    display:block;
     background: none;
     text-align: center;
     background-color: #0047A6;
-    border: 10px outset goldenrod;
-    width: 600px;
-    margin: 0 auto;
-    border-radius: 50px;
 }
 
 .Bbutton {
@@ -110,18 +104,18 @@ li {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    
+    background-color: #0047A6;
+    background-image: url("Background-editted.jpg");
 }
 #wrapper2 {
-    display:none;
     margin-left: auto;
     margin-right: auto;
     color: white;
-    
+    background-color: #006680;
     
 }
 #signature{
-    display:inline;
+    bottom: 0%;
     left: 0%;
     color:white;
     font-family:'Times New Roman';
@@ -135,8 +129,7 @@ margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
     color: white;
-    background-color: #008F4D;
-    display: none;
+    background-color:#008F4D;
 }
 
 

@@ -11,14 +11,11 @@
     <div id="headtool" class="headtool">
         <h1 class="toptitle">Kenny Bean</h1>
         <ul>
-            <li style="float: right;"><div onClick="DProjects()" class="smbutton">Projects</div></li>
-            <li style="float: right;"><div onClick="Daboutme()" class="smbutton">About Me</div></li>
-            <li style="float: right;"><div onClick="DHome()" class="smbutton">Home</div></li>
+            <li style="float: right;"><div onClick="document.getElementById('wrapper3').scrollIntoView();" class="smbutton">Projects</div></li>
+            <li style="float: right;"><div onClick="document.getElementById('Aboutme').scrollIntoView();" class="smbutton">About Me</div></li>
+            <li style="float: right;"><div onClick="document.getElementById('wrapper').scrollIntoView();" class="smbutton">Home</div></li>
 
         </ul>
-    </div>
-    <div id="signature">
-        Copyright © Kenny Bean 2017
     </div>
     <div id="wrapper">
         <br /><br /><br />
@@ -27,10 +24,7 @@
        
         </div>
         <div class="centerofPage" id="cop">
-            <div>
             <h1><u>Software <br /> Developer/Engineer</u></h1>
-                </div>
-            
                 <table style="margin:0 auto">
                     <tr>
                         <td>
@@ -90,7 +84,9 @@
             </tr>
         </table>
     </div>
-            
+            <div id="signature">
+                Copyright © Kenny Bean 2017
+            </div>
 
 </body>
 
