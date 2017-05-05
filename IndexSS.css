@@ -2,9 +2,13 @@
     overflow-x: scroll;
     overflow-y: scroll;
     font-family: Courier New;
-    background-color: black;
-    background-size: cover;
-    background-image: url("Background.jpg");
+}
+html { 
+  background: url(Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 h1 {
     font-size: 50px;
@@ -49,17 +53,17 @@ li {
 
 .centerofPage {
     display:block;
-    background: none;
+    background-color: none;
     text-align: center;
-    background-color: #0047A6;
-    border: 10px outset goldenrod;
+    border: 10px outset;
     width: 600px;
     margin: 0 auto;
     border-radius: 50px;
+    background-color: rgba(0,0,0,.7); 
 }
 
 .Bbutton {
-    background-color: #008F4D;
+    background-color: rgba(0,0,70,1); 
     border: 5px outset;
     border-color: black;
     border-radius: 20px;
@@ -70,21 +74,32 @@ li {
     color: white;
     display: inline;
 }
+.Bbutton:hover{
+background-color:green;
+}
 .smbutton {
     color: white;
-    padding: 7.5px 16px;
+    padding: 20px 16px;
     cursor: pointer;
     background: none;
     font-size: 20px;
     font-family: Courier New;
-    background-color:black;
+    background-color:green;
+border-radius: 30px;
+width:110px;
+text-align:center;
+}
+#emailMe{
+color:lightblue;
+}
+.smbutton:hover{
+background-color:rgba(150,0,0,1);
 }
 .facepic {
             
     background-image:url('Face.jpg');
     background-size:cover;
     border: 5px inset;
-    border-color: darkgoldenrod;
     width: 325px;
     height: 325px;
   border-radius: 325px;
@@ -109,15 +124,15 @@ li {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: lightgray;
     
 }
 #wrapper2 {
     display:none;
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    
+    color: lightgray;
+    background-color: rgba(0,0,50,.5);
     
 }
 #signature{
@@ -130,13 +145,22 @@ li {
     font-size: 18px;
     width:600px;
 margin: 0 auto;
+background-color: rgba(0,0,0,.9);
+border: 10px outset;
+border-radius: 50px;
 }
 #wrapper3 {
     margin-left: auto;
     margin-right: auto;
-    color: white;
-    background-color: #008F4D;
-    display: none;
+display:none;
+border: 10px outset;
+border-radius: 50px;
+
+}
+.projectbackground {
+background-color: rgba(0,0,0,.5);
+border: 10px outset;
+border-radius: 50px;
 }
 
 
