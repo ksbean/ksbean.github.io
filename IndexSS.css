@@ -5,10 +5,11 @@
 }
 html { 
   background: url(Background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  
+width: auto ;
+  max-width: 100% ;
+  height: auto ;
+
 }
 h1 {
     font-size: 50px;
