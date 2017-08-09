@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: Courier New;
     color:black;
 }
@@ -30,8 +30,8 @@ li {
 }
 
 td {
-padding-right: 25px;
-padding-left: 25px;	
+padding-right: 10px;
+padding-left: 10px;	
 }
 
 .toptitle {
@@ -72,7 +72,7 @@ padding-left: 25px;
     border-color: black;
     border-radius: 20px;
     padding: 7.5px 16px;
-    font-size: 35px;
+    font-size: 15px;
     cursor: pointer;
     font-family: Courier New;
     color: black;
@@ -124,8 +124,8 @@ background-color:green;
     border: 5px solid black;
     border-radius: 50px;
    
-	Height: 350px;
-	width:375px;
+	Height: 225px;
+	width:200px;
 }
 #Contact {
     display: inline-block;
@@ -184,7 +184,7 @@ border-radius: 50px;
 }
 #divider1
 {
-	height:30px;
+	height:15px;
 }
 
 
