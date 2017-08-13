@@ -77,6 +77,7 @@ padding-left: 10px;
     font-family: Courier New;
     color: black;
     display: inline;
+    font-weight: bold;
 }
 .Bbutton:hover{
 background-color:green;
@@ -94,6 +95,7 @@ background-color:green;
     text-align: center;
     border: 5px outset;
     border-color: black;
+    font-weight: bold;
 }
 
     .smbutton:hover {
